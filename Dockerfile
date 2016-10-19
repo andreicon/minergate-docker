@@ -7,4 +7,4 @@ RUN apt-get update \
     && dpkg -i minergate.deb \
     && rm minergate.deb
 
-CMD minergate-cli -user andrei.costea47@gmail.com -xmr 1
+CMD minergate-cli
